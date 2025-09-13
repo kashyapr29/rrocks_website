@@ -120,10 +120,10 @@ export default function MarketsPage() {
             <div className="flex items-center gap-2 text-white">
               <Mail className="w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0" />
               <a
-                href="mailto:rrocksthread@gmail.com"
+                href="mailto:contact@rrocksthread.com"
                 className="text-sm sm:text-base hover:text-blue-400 transition-colors duration-200"
               >
-                rrocksthread@gmail.com
+                contact@rrocksthread.com
               </a>
             </div>
           </div>

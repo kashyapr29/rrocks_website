@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://www.rrocksthread.com/</loc>
+    <lastmod>2025-09-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Static Pages -->
+  <url>
+    <loc>https://www.rrocksthread.com/about</loc>
+    <lastmod>2025-09-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rrocksthread.com/contact</loc>
+    <lastmod>2025-09-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.rrocksthread.com/markets</loc>
+    <lastmod>2025-09-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.rrocksthread.com/quality</loc>
+    <lastmod>2025-09-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Applications (categories) -->
+  <url>
+    <loc>https://www.rrocksthread.com/applications/apparel</loc>
+    <lastmod>2025-09-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.rrocksthread.com/applications/automotive</loc>
+    <lastmod>2025-09-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.rrocksthread.com/applications/embroidery</loc>
+    <lastmod>2025-09-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.rrocksthread.com/applications/fabrics</loc>
+    <lastmod>2025-09-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.rrocksthread.com/applications/home-interior</loc>
+    <lastmod>2025-09-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.rrocksthread.com/applications/shoes-accessories</loc>
+    <lastmod>2025-09-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Dynamic Routes (slugs) -->
+  <url>
+    <loc>https://www.rrocksthread.com/embroidery-thread</loc>
+    <lastmod>2025-09-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rrocksthread.com/sewing-thread</loc>
+    <lastmod>2025-09-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rrocksthread.com/yarn</loc>
+    <lastmod>2025-09-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>

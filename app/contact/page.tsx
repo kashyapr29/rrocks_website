@@ -7,7 +7,7 @@ import { MapPin, Phone, Mail, MessageCircle } from "lucide-react"
 
 export default function ContactPage() {
   const handleEmailClick = () => {
-    window.open("mailto:rrocksthread@gmail.com", "_blank")
+    window.open("mailto:contact@rrocksthread.com", "_blank")
   }
 
   const handleWhatsAppClick = () => {
@@ -93,7 +93,7 @@ export default function ContactPage() {
                 </div>
                 <h3 className="font-bold text-2xl text-gray-900 mb-6">Email Address</h3>
                 <p className="text-gray-600 hover:text-purple-600 transition-colors text-xl font-semibold">
-                  rrocksthread@gmail.com
+                  contact@rrocksthread.com
                 </p>
                 <p className="text-gray-500 text-sm mt-2">Click to email</p>
               </CardContent>

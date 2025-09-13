@@ -4,11 +4,18 @@ import { GeistMono } from 'geist/font/mono'
 import './globals.css'
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.rrocksthread.com"),
+  alternates: {
+    canonical: "/",
+  },
   title: 'RRocks Thread – Leading Sewing & Embroidery Thread Manufacturer in India',
   description: 'RRocks Thread Co. Ltd. is a premier manufacturer of high-quality sewing and embroidery threads in India, offering polyester, rayon, metallic, and specialty threads with ISO certifications for quality and sustainability.',
   generator: 'RRocks Technology',
   keywords: [
     'RRocks Thread',
+    'rrocksthread',
+    'r rocks thread',
+    'rrocks thread',
     'Sewing thread manufacturer India',
     'Embroidery thread supplier',
     'Polyester embroidery thread',
@@ -35,6 +42,11 @@ export const metadata: Metadata = {
     ],
     locale: 'en_IN',
     type: 'website',
+  },
+  icons: {
+    icon: 'final/rrocks_logo.png',                // standard favicon
+    shortcut: 'final/rrocks_logo.png',      // browser shortcut
+    apple: 'final/rrocks_logo.png',      // iOS home screen
   },
   // twitter: {
   //   card: 'summary_large_image',
