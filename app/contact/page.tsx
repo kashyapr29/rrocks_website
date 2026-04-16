@@ -7,15 +7,15 @@ import { MapPin, Phone, Mail, MessageCircle } from "lucide-react"
 
 export default function ContactPage() {
   const handleEmailClick = () => {
-    window.open("mailto:contact@rrocksthread.com", "_blank")
+    window.open("mailto:rrocksthread@gmail.com", "_blank")
   }
 
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/919913592832", "_blank")
+    window.open("https://wa.me/919638422000", "_blank")
   }
 
   const handlePhoneClick = () => {
-    window.open("tel:+919913592832", "_blank")
+    window.open("tel:+919638422000", "_blank")
   }
 
   return (
@@ -76,6 +76,7 @@ export default function ContactPage() {
                 </div>
                 <h3 className="font-bold text-2xl text-gray-900 mb-6">Phone Number</h3>
                 <p className="text-gray-600 hover:text-green-600 transition-colors text-xl font-semibold">
+                  +91 96384 22000 <br/>
                   +91 99135 92832
                 </p>
                 <p className="text-gray-500 text-sm mt-2">Click to call</p>
@@ -93,7 +94,7 @@ export default function ContactPage() {
                 </div>
                 <h3 className="font-bold text-2xl text-gray-900 mb-6">Email Address</h3>
                 <p className="text-gray-600 hover:text-purple-600 transition-colors text-xl font-semibold">
-                  contact@rrocksthread.com
+                  contact@rrocksthread.com <br/> rrocksthread@gmail.com
                 </p>
                 <p className="text-gray-500 text-sm mt-2">Click to email</p>
               </CardContent>
@@ -110,7 +111,7 @@ export default function ContactPage() {
                 </div>
                 <h3 className="font-bold text-2xl text-gray-900 mb-6">WhatsApp</h3>
                 <p className="text-gray-600 hover:text-emerald-600 transition-colors text-xl font-semibold">
-                  +91 99135 92832
+                  +91 96384 220000 <br /> +91 99135 92832
                 </p>
                 <p className="text-gray-500 text-sm mt-2">Click to chat</p>
               </CardContent>

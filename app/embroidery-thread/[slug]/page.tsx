@@ -13,27 +13,35 @@ const threadData = {
     heroGradient: "from-red-400 to-pink-500",
     customCategories: [
       {
-        image: "/final/polyster/blue1.jpg",
+        image: "/final/polyster/1.png",
         colors: ["#282C60", "#2230C0", "#2050E0"],
       },
       {
-        image: "/final/polyster/green.jpg",
+        image: "/final/polyster/2.png",
         colors: ["#4B8B1D", "#7FA74C", "#B3D7A1"],
       },
       {
-        image: "/final/polyster/orange.jpg",
+        image: "/final/polyster/3.png",
         colors: ["#F57C00", "#FF8C00", "#FA8800"],
       },
       {
-        image: "/final/polyster/yellow.jpg",
+        image: "/final/polyster/4.png",
         colors: ["#5C473A", "#E8BA4F", "#E6C787"],
       },
       {
-        image: "/final/polyster/red.jpg",
+        image: "/final/polyster/5.png",
         colors: ["#962544", "#DE2F5B", "#EF70B1"],
       },
       {
-        image: "/final/polyster/mendi.jpg",
+        image: "/final/polyster/6.png",
+        colors: ["#5B952E", "#66A37F", "#93B470"],
+      },
+      {
+        image: "/final/polyster/7.png",
+        colors: ["#5B952E", "#66A37F", "#93B470"],
+      },
+      {
+        image: "/final/polyster/8.png",
         colors: ["#5B952E", "#66A37F", "#93B470"],
       },
     ],
@@ -220,6 +228,200 @@ const threadData = {
       },
     ],
   },
+  sewing: {
+    name: "Spun Polyester Sewing Thread",
+    heroTitle: "SPUN POLYESTER\nSEWING\nTHREAD",
+    heroImage: "/final/sewing_hero.jpeg",
+    heroGradient: "from-blue-500 to-indigo-600",
+    customCategories: [
+      {
+        image: "/final/sewing/1.png",
+        colors: ["#1E3A8A", "#2563EB", "#60A5FA"],
+      },
+      {
+        image: "/final/sewing/2.png",
+        colors: ["#065F46", "#10B981", "#6EE7B7"],
+      },
+      {
+        image: "/final/sewing/3.png",
+        colors: ["#7C2D12", "#EA580C", "#FDBA74"],
+      },
+      {
+        image: "/final/sewing/4.png",
+        colors: ["#4C1D95", "#7C3AED", "#C4B5FD"],
+      },
+      {
+        image: "/final/sewing/5.png",
+        colors: ["#7F1D1D", "#DC2626", "#FCA5A5"],
+      },
+      {
+        image: "/final/sewing/6.png",
+        colors: ["#14532D", "#22C55E", "#86EFAC"],
+      },
+      {
+        image: "/final/sewing/7.png",
+        colors: ["#14532D", "#22C55E", "#86EFAC"],
+      },
+      {
+        image: "/final/sewing/8.png",
+        colors: ["#14532D", "#22C55E", "#86EFAC"],
+      },
+    ],
+    description:
+      "High-quality spun polyester sewing thread, engineered for superior seam strength and smooth sewing performance. It is specially designed for high-speed sewing machines and provides excellent durability, low lint, and consistent stitch formation across a wide range of fabrics.",
+    features: [
+      "High seam strength - Ideal for strong and durable stitching",
+      "Low lint formation - Ensures smooth operation in high-speed machines",
+      "Excellent abrasion resistance - Long-lasting seams",
+      "Uniform twist and evenness - Consistent stitch quality",
+      "Good chemical and shrinkage resistance - Maintains performance after washing",
+    ],
+    colorCard: {
+      title: "Spun Polyester Sewing Thread Color Card",
+      description:
+        "Available in a wide range of shades to match all types of fabrics and garment requirements.",
+      image: "/final/polyster/shade_card_image1.png",
+    },
+    colorFastness: {
+      title: "Spun Polyester Sewing Thread Color Fastness",
+      description:
+        "Our sewing thread is tested to ensure high durability and resistance under various conditions.",
+      specs: [
+        {
+          test: "Light Fastness",
+          standard: "ISO 105-B02",
+          grade: "5-6",
+          result: "Very Good",
+        },
+        {
+          test: "Washing Fastness",
+          standard: "ISO 105-C06",
+          grade: "4-5",
+          result: "Very Good",
+        },
+        {
+          test: "Perspiration Fastness",
+          standard: "ISO 105-E04",
+          grade: "4",
+          result: "Good",
+        },
+        {
+          test: "Rubbing Fastness",
+          standard: "ISO 105-X12",
+          grade: "4",
+          result: "Good",
+        },
+      ],
+    },
+    sizeChart: {
+      title: "Polyester Embroidery Thread Size Chart",
+      sizes: [
+        {
+          tex: "15",
+          denier: "75",
+          weight: "40",
+          yards: "5500",
+          meters: "5029",
+        },
+        {
+          tex: "17",
+          denier: "100",
+          weight: "35",
+          yards: "4950",
+          meters: "4526",
+        },
+        {
+          tex: "20",
+          denier: "120",
+          weight: "30",
+          yards: "4400",
+          meters: "4023",
+        },
+        {
+          tex: "25",
+          denier: "150",
+          weight: "25",
+          yards: "3520",
+          meters: "3218",
+        },
+      ],
+    },
+    packingOptions: [
+      {
+        size: "2000m",
+        image: "/sewing-thread-cone.png",
+        description: "2000M CONE\nSTANDARD PACK",
+      },
+      {
+        size: "3000m",
+        image: "/sewing-thread-cone.png",
+        description: "3000M CONE\nHIGH SPEED USE",
+      },
+      {
+        size: "5000m",
+        image: "/sewing-thread-cone.png",
+        description: "5000M CONE\nINDUSTRIAL USE",
+      },
+      {
+        size: "10000m",
+        image: "/sewing-thread-cone.png",
+        description: "10000M CONE\nBULK PRODUCTION",
+      },
+    ],
+    applications: [
+      "Garment stitching (shirts, trousers, dresses)",
+      "Denim and heavy fabric sewing",
+      "Knitted and woven fabrics",
+      "Home textiles and upholstery",
+      "Industrial stitching applications",
+      "General-purpose sewing",
+    ],
+    catalogPath: "https://api.whatsapp.com/send?phone=919638422000&text=Hi%2C%20I%E2%80%99m%20looking%20for%20spun%20polyester%20sewing%20thread%20catalog%20and%20product%20details.%20Please%20share%20%F0%9F%93%84%F0%9F%A7%B5",
+    products: [
+      {
+        id: 1,
+        name: "Sewing Thread - White",
+        image: "/white-thread.png",
+        color: "White",
+        length: "2000m",
+      },
+      {
+        id: 2,
+        name: "Sewing Thread - Black",
+        image: "/black-thread.png",
+        color: "Black",
+        length: "2000m",
+      },
+      {
+        id: 3,
+        name: "Sewing Thread - Red",
+        image: "/red-thread.png",
+        color: "Red",
+        length: "2000m",
+      },
+      {
+        id: 4,
+        name: "Sewing Thread - Blue",
+        image: "/blue-thread.png",
+        color: "Blue",
+        length: "2000m",
+      },
+      {
+        id: 5,
+        name: "Sewing Thread - Navy",
+        image: "/navy-thread.png",
+        color: "Navy",
+        length: "2000m",
+      },
+      {
+        id: 6,
+        name: "Sewing Thread - Grey",
+        image: "/grey-thread.png",
+        color: "Grey",
+        length: "2000m",
+      },
+    ],
+  },
   viscose: {
     name: "Viscose Embroidery Thread",
     heroTitle: "VISCOSE\nEMBROIDERY\nTHREAD",
@@ -227,27 +429,35 @@ const threadData = {
     heroGradient: "from-teal-400 to-blue-500",
     customCategories: [
       {
-        image: "/final/german/pink.jpg",
+        image: "/final/viscose/1.png",
         colors: ["#D82F6B", "#FF2F6E", "#F696BD"],
       },
       {
-        image: "/final/german/purple.jpg",
+        image: "/final/viscose/2.png",
         colors: ["#5E27AE", "#9C23D8", "#C977E8"],
       },
       {
-        image: "/final/german/lightblue.jpg",
+        image: "/final/viscose/3.png",
         colors: ["#28395B", "#2481A6", "#33C6E3"],
       },
       {
-        image: "/final/german/mendi.jpg",
+        image: "/final/viscose/4.png",
         colors: ["#5B952E", "#66A37F", "#93B470"],
       },
       {
-        image: "/final/german/orange.jpg",
+        image: "/final/viscose/5.png",
         colors: ["#D85C20", "#FF6600", "#FF9E26"],
       },
       {
-        image: "/final/german/marun.jpg",
+        image: "/final/viscose/6.png",
+        colors: ["#942D3D", "#CD2D32", "#EE2F2F"],
+      },
+      {
+        image: "/final/viscose/7.png",
+        colors: ["#942D3D", "#CD2D32", "#EE2F2F"],
+      },
+      {
+        image: "/final/viscose/8.png",
         colors: ["#942D3D", "#CD2D32", "#EE2F2F"],
       },
     ],
@@ -429,27 +639,35 @@ const threadData = {
     heroGradient: "from-purple-400 to-pink-500",
     customCategories: [
       {
-        image: "/final/german/pink.jpg",
+        image: "/final/multi/1.jpeg",
         colors: ["#D82F6B", "#FF2F6E", "#F696BD"],
       },
       {
-        image: "/final/german/purple.jpg",
+        image: "/final/multi/2.jpeg",
         colors: ["#5E27AE", "#9C23D8", "#C977E8"],
       },
       {
-        image: "/final/german/lightblue.jpg",
+        image: "/final/multi/3.jpeg",
         colors: ["#28395B", "#2481A6", "#33C6E3"],
       },
       {
-        image: "/final/german/mendi.jpg",
+        image: "/final/multi/4.jpeg",
         colors: ["#5B952E", "#66A37F", "#93B470"],
       },
       {
-        image: "/final/german/orange.jpg",
+        image: "/final/multi/5.jpeg",
         colors: ["#D85C20", "#FF6600", "#FF9E26"],
       },
       {
-        image: "/final/german/marun.jpg",
+        image: "/final/multi/6.jpg",
+        colors: ["#942D3D", "#CD2D32", "#EE2F2F"],
+      },
+      {
+        image: "/final/multi/7.jpg",
+        colors: ["#D85C20", "#FF6600", "#FF9E26"],
+      },
+      {
+        image: "/final/multi/8.jpeg",
         colors: ["#942D3D", "#CD2D32", "#EE2F2F"],
       },
     ],
@@ -638,27 +856,35 @@ const threadData = {
     heroGradient: "from-red-500 to-yellow-500",
     customCategories: [
       {
-        image: "/final/german/purple.jpg",
+        image: "/final/german/1.png",
         colors: ["#5E27AE", "#9C23D8", "#C977E8"],
       },
       {
-        image: "/final/german/pink.jpg",
+        image: "/final/german/2.png",
         colors: ["#D82F6B", "#FF2F6E", "#F696BD"],
       },
       {
-        image: "/final/german/lightblue.jpg",
+        image: "/final/german/3.png",
         colors: ["#28395B", "#2481A6", "#33C6E3"],
       },
       {
-        image: "/final/german/mendi.jpg",
+        image: "/final/german/4.png",
         colors: ["#5B952E", "#66A37F", "#93B470"],
       },
       {
-        image: "/final/german/orange.jpg",
+        image: "/final/german/5.png",
         colors: ["#D85C20", "#FF6600", "#FF9E26"],
       },
       {
-        image: "/final/german/marun.jpg",
+        image: "/final/german/6.png",
+        colors: ["#942D3D", "#CD2D32", "#EE2F2F"],
+      },
+      {
+        image: "/final/german/7.png",
+        colors: ["#942D3D", "#CD2D32", "#EE2F2F"],
+      },
+      {
+        image: "/final/german/8.png",
         colors: ["#942D3D", "#CD2D32", "#EE2F2F"],
       },
     ],
@@ -1003,7 +1229,7 @@ export default async function EmbroideryThreadPage({
       </section>
 
       {/* Color Fastness */}
-      <section className="py-20 bg-gray-50">
+      {/* <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">
@@ -1059,10 +1285,10 @@ export default async function EmbroideryThreadPage({
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Size Chart */}
-      <section className="py-20">
+      {/* <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-gray-800 mb-8">
@@ -1073,7 +1299,6 @@ export default async function EmbroideryThreadPage({
                 <table className="w-full">
                   <thead className="bg-blue-600 text-white">
                     <tr>
-                      {/* <th className="px-6 py-4 text-left font-semibold">Tex</th> */}
                       <th className="px-6 py-4 text-left font-semibold">
                         Denier
                       </th>
@@ -1094,7 +1319,6 @@ export default async function EmbroideryThreadPage({
                         key={index}
                         className={index % 2 === 0 ? "bg-gray-50" : "bg-white"}
                       >
-                        {/* <td className="px-6 py-4 font-medium text-gray-800">{size.tex}</td> */}
                         <td className="px-6 py-4 text-gray-600">
                           {size.denier}
                         </td>
@@ -1115,7 +1339,7 @@ export default async function EmbroideryThreadPage({
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* TODO: Add the different size of thread cone's image in this Packing Chart */}
       {/* <section className="py-20 bg-gray-50">
@@ -1155,8 +1379,8 @@ export default async function EmbroideryThreadPage({
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
               {[
                 { label: "2000 Mtrs" },
-                { label: "2200 Mtrs" },
-                { label: "2400 Mtrs" },
+                { label: "5000 Mtrs" },
+                { label: "10000 Mtrs" },
                 { label: "Custom Packing\nAs Per Requirement" },
               ].map((option, index) => (
                 <div

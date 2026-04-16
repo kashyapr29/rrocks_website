@@ -13,18 +13,18 @@ import Link from "next/link";
 const socialLinks = [
   {
     Icon: MessageCircle,
-    href: "https://wa.me/919913592832",
+    href: "https://wa.me/+919638422000",
     hover: "hover:bg-green-500",
   },
   { Icon: Phone, href: "tel:+919913592832", hover: "hover:bg-blue-500" },
   {
     Icon: Linkedin,
-    href: "/",
+    href: "https://www.linkedin.com/company/rrocksthread",
     hover: "hover:bg-blue-700",
   },
   {
     Icon: Instagram,
-    href: "https://www.instagram.com",
+    href: "https://www.instagram.com/rrocksthread_",
     hover: "hover:bg-pink-500",
   },
 ];
@@ -183,10 +183,10 @@ export function Footer() {
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 sm:w-5 sm:h-5 text-blue-400 flex-shrink-0" />
                 <a
-                  href="mailto:contact@rrocksthread.com"
+                  href="mailto:rrocks@gmail.com"
                   className="text-gray-300 text-sm sm:text-base hover:text-blue-400 transition-colors duration-200"
                 >
-                  contact@rrocksthread.com
+                  contact@rrocksthread.com <br/> rrocksthread@gmail.com
                 </a>
               </div>
             </div>

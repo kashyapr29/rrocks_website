@@ -1,30 +1,30 @@
-"use client"
-import Image from "next/image"
+"use client";
+import Image from "next/image";
 import Link from "next/link";
-import { useState, useEffect, useRef } from "react"
+import { useState, useEffect, useRef } from "react";
 
 const defaultProductCategories = [
   {
-    title: "Spun Polyester Sewing Thread",
-    image: "/final/polyster/blue1.jpg",
-        colors: ["#282C60", "#2230C0", "#2050E0"],
+    title: "Polyester Thread",
+    image: "/final/polyster/home_polyester.jpeg",
+    colors: ["#282C60", "#2230C0", "#2050E0"],
   },
   {
-    title: "Core Spun Sewing Thread",
-    image: "/final/polyster/red.jpg",
-        colors: ["#962544", "#DE2F5B", "#EF70B1"],
+    title: "Sewing Thread",
+    image: "/final/polyster/home_spun.jpeg",
+    colors: ["#962544", "#DE2F5B", "#EF70B1"],
   },
   {
-    title: "Rayon Embroidery Thread",
-    image: "/final/polyster/orange.jpg",
-        colors: ["#F57C00", "#FF8C00", "#FA8800"],
+    title: "Rayon / Viscose",
+    image: "/final/polyster/home_viscose.jpeg",
+    colors: ["#F57C00", "#FF8C00", "#FA8800"],
   },
   {
-    title: "Polyester Embroidery Thread",
-    image: "/final/polyster/mendi.jpg",
-        colors: ["#5B952E", "#66A37F", "#93B470"],
+    title: "Multi Thread",
+    image: "/final/polyster/home_multi.jpeg",
+    colors: ["#5B952E", "#66A37F", "#93B470"],
   },
-]
+];
 
 interface ProductCategory {
   title?: string;
@@ -36,26 +36,28 @@ interface ProductShowcaseProps {
   productCategories?: ProductCategory[];
 }
 
-export function ProductShowcase({ productCategories = defaultProductCategories }: ProductShowcaseProps) {
-  const [isVisible, setIsVisible] = useState(false)
-  const sectionRef = useRef<HTMLElement>(null)
+export function ProductShowcase({
+  productCategories = defaultProductCategories,
+}: ProductShowcaseProps) {
+  const [isVisible, setIsVisible] = useState(false);
+  const sectionRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          setIsVisible(true)
+          setIsVisible(true);
         }
       },
       { threshold: 0.1 },
-    )
+    );
 
     if (sectionRef.current) {
-      observer.observe(sectionRef.current)
+      observer.observe(sectionRef.current);
     }
 
-    return () => observer.disconnect()
-  }, [])
+    return () => observer.disconnect();
+  }, []);
 
   return (
     <section
@@ -79,42 +81,44 @@ export function ProductShowcase({ productCategories = defaultProductCategories }
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Discover our comprehensive range of premium threads designed for every application
+            Discover our comprehensive range of premium threads designed for
+            every application
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
           {productCategories.map((product, index) => (
             <div
               key={index}
-              className={`overflow-hidden group cursor-pointer transform transition-all duration-500 hover:scale-[1.02] shadow-lg hover:shadow-2xl rounded-lg ${
-                isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
-              }`}
-              style={{ transitionDelay: `${index * 100}ms` }}
+              className="overflow-hidden group cursor-pointer transform transition-all duration-500 hover:scale-[1.02] shadow-lg hover:shadow-2xl rounded-lg"
             >
-              <div className="relative overflow-hidden h-80 rounded-lg">
+              <div className="relative overflow-hidden aspect-[4/5] rounded-lg">
                 <Image
                   src={product.image || "/placeholder.svg"}
                   alt={product.title ?? "Untitled Product"}
-                  width={400}
-                  height={300}
-                  className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700 rounded-lg"
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-700"
                 />
 
-                <div className="absolute top-6 left-6">
-                  <h3 className="font-bold text-white text-2xl drop-shadow-lg">{product.title}</h3>
+                <div className="absolute bottom-1 left-6">
+                  <h3 className="font-bold text-white text-2xl drop-shadow-lg">
+                    {product.title}
+                  </h3>
                 </div>
 
-                <div className="absolute bottom-6 left-6 flex gap-3">
+                {/* <div className="absolute bottom-6 left-6 flex gap-3">
                   {product.colors.map((color, colorIndex) => (
                     <div
                       key={colorIndex}
                       className="w-10 h-10 rounded-full bg-white/90 backdrop-blur-sm p-1 shadow-lg transform group-hover:scale-110 transition-all duration-200"
                     >
-                      <div className="w-full h-full rounded-full shadow-inner" style={{ backgroundColor: color }} />
+                      <div
+                        className="w-full h-full rounded-full shadow-inner"
+                        style={{ backgroundColor: color }}
+                      />
                     </div>
                   ))}
-                </div>
+                </div> */}
               </div>
             </div>
           ))}
@@ -130,13 +134,14 @@ export function ProductShowcase({ productCategories = defaultProductCategories }
             <div className="relative z-10">
               <h3 className="text-3xl font-bold mb-4">Ready to Get Started?</h3>
               <p className="text-xl mb-8 opacity-90">
-                Contact us today for custom thread solutions tailored to your needs
+                Contact us today for custom thread solutions tailored to your
+                needs
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/contact" passHref>
-                <button className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200">
-                  Request Quote
-                </button>
+                  <button className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200">
+                    Request Quote
+                  </button>
                 </Link>
                 {/* <button className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-all duration-200">
                   Download Catalog
@@ -147,5 +152,5 @@ export function ProductShowcase({ productCategories = defaultProductCategories }
         </div>
       </div>
     </section>
-  )
+  );
 }

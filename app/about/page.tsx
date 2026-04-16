@@ -80,7 +80,7 @@ export default function AboutPage() {
               </div>
               <div className="relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300">
                 <Image
-                  src="/final/weaving_yarn.png"
+                  src="/final/about_rrock.jpeg"
                   alt="Colorful Embroidery Threads Display"
                   width={600}
                   height={400}

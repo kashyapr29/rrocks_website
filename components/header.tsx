@@ -27,6 +27,11 @@ export function Header() {
           icon: "/blue-thread-cone-icon.png",
         },
         {
+          name: "Sewing Thread",
+          href: "/embroidery-thread/sewing",
+          icon: "/blue-thread-cone-icon.png",
+        },
+        {
           name: "Viscose Embroidery Thread",
           href: "/embroidery-thread/viscose",
           icon: "/red-thread-cone-icon.png",

@@ -10,7 +10,7 @@ export default function MarketsPage() {
       title: "Popular RRocks Thread in Mumbai",
       description:
         "Popular RRocks Thread in Mumbai Market. RRocks Mumbai office is at Andheri East, providing premium quality threads for textile manufacturers across Maharashtra. Our Mumbai facility serves over 500+ garment manufacturers with specialized embroidery threads, industrial sewing threads, and custom color matching services. The strategic location allows us to efficiently serve the entire Western India textile corridor. We maintain a comprehensive inventory of over 2000 thread varieties including polyester, cotton, silk, and specialty metallic threads. Our Mumbai team provides technical support for thread selection, color consultation, and bulk order management. The facility operates with state-of-the-art quality control systems ensuring consistent thread quality and timely delivery to meet the fast-paced demands of Mumbai's fashion industry.",
-      image: "/final/market_place.png",
+      image: "/final/stall.jpeg",
       location: "Mumbai, Maharashtra",
     },
     {
@@ -19,7 +19,7 @@ export default function MarketsPage() {
       title: "RRocks Thread Expansion in Delhi",
       description:
         "RRocks Thread establishes strong presence in Delhi NCR region, serving major garment manufacturers with high-quality embroidery and sewing threads. Our Delhi distribution center covers the entire North Indian market, providing same-day delivery to local manufacturers and next-day delivery across Punjab, Haryana, and Uttar Pradesh. We specialize in bulk orders for export-oriented garment units and maintain strategic partnerships with leading fashion brands and textile exporters. The Delhi facility features advanced thread testing laboratories, color matching technology, and a dedicated research team for developing innovative thread solutions. Our experienced sales team provides on-site technical consultations, helping manufacturers optimize their production processes and reduce thread-related defects. We also offer specialized training programs for quality control personnel and machine operators.",
-      image: "/final/market_place.png",
+      image: "/final/stall.jpeg",
       location: "Delhi, NCR",
     },
     {
@@ -28,7 +28,7 @@ export default function MarketsPage() {
       title: "Bangalore Textile Market Growth",
       description:
         "RRocks Thread captures significant market share in Bangalore's growing textile industry, providing innovative thread solutions for modern manufacturers. Our Bangalore operations focus on high-tech textile applications, serving IT city's growing fashion industry and traditional silk manufacturers. We offer specialized threads for both contemporary fashion brands and heritage textile artisans, including eco-friendly organic cotton threads and recycled polyester options. The Bangalore center serves as our innovation hub, developing smart threads with enhanced durability and performance characteristics. Our team collaborates with local design institutes and fashion schools to promote sustainable textile practices. We maintain partnerships with Karnataka's silk weaving cooperatives and provide technical expertise for traditional handloom operations while supporting modern automated manufacturing processes.",
-      image: "/final/market_place.png",
+      image: "/final/stall.jpeg",
       location: "Bangalore, Karnataka",
     },
     {
@@ -37,7 +37,7 @@ export default function MarketsPage() {
       title: "Chennai Market Expansion",
       description:
         "RRocks Thread strengthens its position in Chennai's textile hub, offering comprehensive thread solutions for South Indian manufacturers. Our Chennai facility specializes in cotton threads for traditional South Indian textiles, serving handloom weavers, power loom manufacturers, and modern garment exporters. We maintain strong partnerships with Tamil Nadu's cooperative textile societies and provide specialized threads for traditional saree weaving, including temple border threads and zari work materials. The Chennai operations include a dedicated handloom support division that works closely with rural weavers, providing them with premium quality threads at competitive prices. Our technical team offers training programs on modern weaving techniques while preserving traditional craftsmanship. We also support the region's growing knitwear industry with high-performance threads designed for stretch fabrics and athletic wear manufacturing.",
-      image: "/final/market_place.png",
+      image: "/final/stall.jpeg",
       location: "Chennai, Tamil Nadu",
     },
   ];
@@ -120,10 +120,10 @@ export default function MarketsPage() {
             <div className="flex items-center gap-2 text-white">
               <Mail className="w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0" />
               <a
-                href="mailto:contact@rrocksthread.com"
+                href="mailto:rrocksthread@gmail.com"
                 className="text-sm sm:text-base hover:text-blue-400 transition-colors duration-200"
               >
-                contact@rrocksthread.com
+                contact@rrocksthread.com / rrocksthread@gmail.com
               </a>
             </div>
           </div>
